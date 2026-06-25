@@ -3,26 +3,18 @@ from flask import Flask, render_template, request
 import numpy as np
 import pickle
 
-# -----------------------------
-# Step 1: Initialize Flask App
-# -----------------------------
+
 app = Flask(__name__)
 
-# -----------------------------
-# Step 2: Load Trained Model
-# -----------------------------
+
 model = pickle.load(open("models/model.pkl", "rb"))
 
-# -----------------------------
-# Step 3: Home Route
-# -----------------------------
+
 @app.route("/")
 def home():
     return render_template("index.html")
 
-# -----------------------------
-# Step 4: Predict Route
-# -----------------------------
+
 @app.route("/predict", methods=["POST"])
 def predict():
     try:
@@ -43,8 +35,6 @@ def predict():
     except Exception as e:
         return f"Error: {str(e)}"
 
-# -----------------------------
-# Step 5: Run App
-# -----------------------------
+
 if __name__ == "__main__":
     app.run(debug=True)

@@ -41,18 +41,11 @@ processed_data.to_csv("dataset/processed_data.csv", index=False)
 
 print("\nPreprocessing Completed Successfully")
 
-# -----------------------------
-# Step 4: Check Null Values
-# -----------------------------
 
 print("\nNull Values in X:")
 print(X.isnull().sum())
 
-# -----------------------------
-# Step 5: Handle Null Values
-# -----------------------------
 
-# Fill missing values with column mean
 X = X.fillna(X.mean())
 
 print("\nAfter handling null values:")
