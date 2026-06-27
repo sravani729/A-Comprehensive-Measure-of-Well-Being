@@ -1,15 +1,105 @@
-The Human Development Index (HDI) is a statistical composite index of life expectancy, education, and per capita income indicators, which are used to rank countries into four tiers Very High, High, Medium, and Low of human development. A country achieves a higher HDI when its population enjoys a longer lifespan, better educational attainment, and a higher Gross National Income (GNI PPP) per capita.
+A Comprehensive Measure of Well-Being using Machine Learning
 
-The HDI was developed to emphasize that people and their capabilities should be the primary measure of a country's development rather than economic growth alone. It provides a broader perspective on development by considering health, education, and living standards together. The index is widely used by governments, researchers, policymakers, and international organizations to evaluate progress, compare countries, and identify areas requiring improvement.
+Project Overview
 
-Scenario 1: Predicting Very High Human Development
+This project predicts the Human Development Index (HDI) using Machine Learning techniques. The application analyzes important socio-economic indicators such as Life Expectancy, Mean Years of Schooling, and Gross National Income (GNI) per Capita to estimate the Human Development Index. A Flask-based web application provides a simple user interface where users can enter these indicators and obtain predicted HDI values instantly.
 
-A user selects a country with high life expectancy, strong mean years of schooling, expected years of schooling, and a high GNI per capita. Based on these indicators, the model predicts a Very High HDI score, classifying the country among the most developed nations. This helps users understand how strong performance across multiple development dimensions contributes to overall human development.
+Objectives:
+Predict Human Development Index (HDI).
+Perform data preprocessing and visualization.
+Train a Linear Regression model.
+Evaluate model performance.
+Deploy the trained model using Flask.
+Provide a simple web interface for predictions.
 
-Scenario 2: Identifying Development Gaps in Emerging Economies
+Features:
+Dataset preprocessing
+Missing value handling
+Data visualization
+Linear Regression model
+Model evaluation using R² Score and Mean Squared Error
+Model serialization using Pickle
+Flask web application
+User-friendly prediction interface
 
-A policymaker inputs mid-range values representing a developing nation, including moderate life expectancy, average educational attainment, and a moderate income level. The model returns a Medium HDI score, providing insights into areas where improvements in healthcare, education, or income generation could significantly enhance human development outcomes.
+Technology Stack:
+Python
+Pandas
+NumPy
+Matplotlib
+Seaborn
+Scikit-learn
+Flask
+HTML
+CSS
+Pickle
 
-Scenario 3: Assessing Countries Requiring Development Intervention
+Project Workflow:
+Environment Setup
+Import Libraries
+Dataset Collection
+Data Exploration
+Data Visualization
+Data Preprocessing
+Feature Selection
+Train-Test Split
+Linear Regression Model Training
+Model Evaluation
+Save Model
+Flask Deployment
 
-A researcher evaluates a country with relatively low life expectancy, limited educational opportunities, and low GNI per capita. The model predicts a Low HDI score and highlights the country's developmental challenges. Such predictions can support governments and development organizations in prioritizing investments and policy interventions.
+Dataset
+The dataset contains Human Development Index indicators collected from international development reports.
+
+Main attributes include:
+Country
+Life Expectancy at Birth
+Mean Years of Schooling
+Expected Years of Schooling
+Gross National Income Per Capita
+Human Development Index
+Machine Learning Algorithm
+
+Linear Regression
+The model learns the relationship between socio-economic indicators and the Human Development Index to predict HDI for new user inputs.
+
+
+Installation:
+Clone the repository
+git clone https://github.com/yourusername/A-Comprehensive-Measure-of-Well-Being.git
+Install dependencies
+pip install -r requirements.txt
+Run the application
+      python app.py
+
+
+Project Structure
+dataset/
+models/
+src/
+templates/
+static/
+app.py
+requirements.txt
+README.md
+
+
+Future Enhancements
+Support multiple ML algorithms
+Improve prediction accuracy
+Interactive dashboards
+Cloud deployment
+User authentication
+Real-time analytics
+
+
+Team Members:
+Nagella Sravani
+Nagalli Deepak
+Nallagoti Lavanya
+Ugadi Shiva Kumar
+Vannala Madhusekhar
+
+Conclusion:
+This project demonstrates the application of Machine Learning in predicting the Human Development Index. By integrating data preprocessing, visualization, model development, and Flask deployment, it provides an end-to-end solution for HDI prediction. The system is scalable and can be extended with advanced machine learning algorithms and cloud deployment for real-world use.
+
