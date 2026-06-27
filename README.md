@@ -67,8 +67,10 @@ The model learns the relationship between socio-economic indicators and the Huma
 Installation:
 Clone the repository
 git clone https://github.com/yourusername/A-Comprehensive-Measure-of-Well-Being.git
+
 Install dependencies
 pip install -r requirements.txt
+
 Run the application
       python app.py
 
