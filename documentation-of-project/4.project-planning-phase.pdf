@@ -1,0 +1,110 @@
+# 4. Project Planning Phase 
+
+# Project Planning Phase
+
+## Introduction
+
+Project planning is an essential phase that defines the roadmap for successful project completion. It includes task allocation, timeline estimation, milestone planning, and resource management. Proper planning ensures that every team member understands their responsibilities and that the project progresses in a systematic manner.
+
+---
+
+## Project Objectives
+
+* Develop a Machine Learning model to predict Human Development Index (HDI).
+* Build a Flask-based web application for user interaction.
+* Perform data preprocessing and visualization.
+* Evaluate the model using regression metrics.
+* Deploy a user-friendly prediction system.
+
+---
+
+## Team Members and Responsibilities
+
+| Team Member         | Responsibility                                                            |
+| ------------------- | ------------------------------------------------------------------------- |
+| Nagella Sravani     | Project Workflow, Environment Setup, Flask Integration, GitHub Management |
+| Nagalli Deepak      | Dataset Collection, Data Exploration, Data Visualization                  |
+| Ugadi Shiva Kumar   | Data Preprocessing, Feature Selection, Missing Value Handling             |
+| Nallagoti Lavanya   | Train-Test Split, Prediction Module, Testing                              |
+| Vannala Madhusekhar | Model Training, Model Saving, Flask Backend                               |
+
+---
+
+## Sprint Planning
+
+### Sprint 1
+
+* Install required libraries
+* Create project structure
+* Download dataset
+
+### Sprint 2
+
+* Data preprocessing
+* Data visualization
+* Feature selection
+
+### Sprint 3
+
+* Train Linear Regression model
+* Evaluate performance
+* Save model
+
+### Sprint 4
+
+* Develop Flask application
+* Design HTML pages
+* Perform testing
+* Upload to GitHub
+
+---
+
+## Project Timeline
+
+Week 1
+
+* Requirement Analysis
+* Brainstorming
+
+Week 2
+
+* Dataset Collection
+* Data Exploration
+
+Week 3
+
+* Model Development
+
+Week 4
+
+* Flask Deployment
+* Documentation
+* Testing
+
+---
+
+## Milestones
+
+✔ Environment Setup
+
+✔ Dataset Collection
+
+✔ Data Preprocessing
+
+✔ Model Training
+
+✔ Model Evaluation
+
+✔ Model Saving
+
+✔ Flask Deployment
+
+✔ Documentation
+
+✔ Final Demonstration
+
+---
+
+## Conclusion
+
+The planning phase ensured efficient task distribution, proper time management, and successful completion of the project within the specified timeline.

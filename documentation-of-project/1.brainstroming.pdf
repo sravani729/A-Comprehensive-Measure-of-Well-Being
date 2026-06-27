@@ -1,0 +1,34 @@
+# 1. Brainstorming & Ideation 
+
+## Title
+
+**Brainstorming and Ideation – A Comprehensive Measure of Well-Being**
+
+### Introduction
+
+The project began with identifying a real-world problem related to measuring a country's development. Traditional measures such as GDP do not fully represent the quality of life of citizens. Therefore, the Human Development Index (HDI), which considers health, education, and income, was selected as the focus of this project.
+
+### Problem Identification
+
+Organizations and researchers require a system that can estimate HDI using socio-economic indicators without performing extensive manual analysis. Existing methods are time-consuming and require expertise in statistical analysis.
+
+### Proposed Solution
+
+Develop a machine learning model capable of predicting HDI using important indicators such as:
+
+* Life Expectancy at Birth
+* Mean Years of Schooling
+* Gross National Income (GNI) per Capita
+
+The trained model is integrated into a Flask web application, allowing users to obtain predictions through a simple web interface.
+
+### Benefits
+
+* Fast prediction of HDI
+* Easy-to-use interface
+* Supports educational and research purposes
+* Demonstrates practical use of machine learning
+
+### Outcome
+
+The brainstorming phase resulted in selecting HDI prediction as the project topic and identifying the technologies and workflow required for implementation.

@@ -1,0 +1,49 @@
+# 2. Requirement Analysis 
+
+## Functional Requirements
+
+* Upload and read the dataset.
+* Perform preprocessing.
+* Handle missing values.
+* Train a Linear Regression model.
+* Save the trained model.
+* Accept user inputs through a web form.
+* Predict Human Development Index.
+* Display prediction results.
+
+## Non-Functional Requirements
+
+* User-friendly interface.
+* Fast prediction response.
+* Reliable prediction accuracy.
+* Easy maintenance.
+* Scalability.
+
+## Software Requirements
+
+* Python 3.x
+* Visual Studio Code
+* Flask
+* NumPy
+* Pandas
+* Matplotlib
+* Seaborn
+* Scikit-learn
+* Pickle
+
+## Hardware Requirements
+
+* Intel Core i3 or higher
+* 4 GB RAM or above
+* Windows/Linux/macOS
+* 500 MB free disk space
+
+## Dataset Requirements
+
+* HDI Dataset
+* CSV Format
+* Kaggle/Open Data Source
+
+## Expected Output
+
+Prediction of Human Development Index based on user-provided socio-economic indicators.

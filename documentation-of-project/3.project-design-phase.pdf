@@ -1,0 +1,91 @@
+# 3. Project Design Phase 
+
+## System Architecture
+
+User
+
+↓
+
+Flask Web Interface
+
+↓
+
+Flask Backend
+
+↓
+
+Trained Machine Learning Model (.pkl)
+
+↓
+
+Predicted Human Development Index
+
+---
+
+## Modules
+
+### Module 1
+
+Dataset Collection
+
+### Module 2
+
+Data Preprocessing
+
+### Module 3
+
+Data Visualization
+
+### Module 4
+
+Feature Selection
+
+### Module 5
+
+Model Training
+
+### Module 6
+
+Model Evaluation
+
+### Module 7
+
+Model Saving
+
+### Module 8
+
+Flask Deployment
+
+---
+
+## Input
+
+* Life Expectancy
+* Mean Years of Schooling
+* Gross National Income
+
+## Output
+
+Predicted Human Development Index
+
+---
+
+## Technologies Used
+
+* Python
+* Flask
+* HTML
+* CSS
+* Pandas
+* NumPy
+* Scikit-learn
+* Pickle
+
+---
+
+## Advantages
+
+* Accurate prediction
+* Easy deployment
+* Simple interface
+* Fast execution

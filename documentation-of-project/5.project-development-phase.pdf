@@ -1,0 +1,116 @@
+# 5. Project Development Phase 
+
+# Project Development Phase
+
+## Introduction
+
+The development phase involved implementing the complete machine learning workflow, from data preprocessing to deployment of the trained model using Flask.
+
+---
+
+## Development Steps
+
+### Step 1: Environment Setup
+
+Installed required libraries:
+
+* NumPy
+* Pandas
+* Matplotlib
+* Seaborn
+* Scikit-learn
+* Flask
+* Pickle
+
+---
+
+### Step 2: Dataset Collection
+
+Downloaded the Human Development Index dataset and stored it in the dataset folder.
+
+---
+
+### Step 3: Data Preprocessing
+
+* Loaded dataset using Pandas
+* Removed unnecessary columns
+* Handled missing values
+* Selected required features
+
+---
+
+### Step 4: Data Visualization
+
+Created graphs including:
+
+* Strip Plot
+* Correlation Heatmap
+* Distribution Analysis
+
+---
+
+### Step 5: Model Development
+
+Algorithm Used:
+
+Linear Regression
+
+Performed:
+
+* Train-Test Split
+* Model Training
+* Model Evaluation
+
+---
+
+### Step 6: Model Saving
+
+Saved the trained model as:
+
+model.pkl
+
+using Pickle.
+
+---
+
+### Step 7: Flask Web Application
+
+Created:
+
+* app.py
+* index.html
+* result.html
+
+Implemented prediction functionality.
+
+---
+
+## Project Structure
+
+dataset/
+
+models/
+
+src/
+
+templates/
+
+static/
+
+app.py
+
+requirements.txt
+
+README.md
+
+---
+
+## Output
+
+The Flask application accepts user input and predicts the Human Development Index accurately using the trained machine learning model.
+
+---
+
+## Conclusion
+
+The development phase successfully integrated machine learning and web technologies into a complete HDI prediction system.
